@@ -9,7 +9,7 @@ const models = [
     url: "/cosmo.glb",
     name: "Space station",
     description:
-      "This image depicts the interior of the space station. It features living quarters, a biodome, laboratories, an industrial area, and a power core designed for comfortable and efficient crew accommodation.",
+      "This is a detailed 3D model of a space station designed for a future colony. It includes various modules and external devices that support life support and space exploration.",
   },
   {
     id: 2,
