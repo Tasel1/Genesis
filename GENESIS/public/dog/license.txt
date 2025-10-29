@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jeff O Lantern
+* source:	https://sketchfab.com/3d-models/jeff-o-lantern-adfffe3ccbbc47858869e45eafab533c
+* author:	WW3 (https://sketchfab.com/Mr.Iguana)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jeff O Lantern" (https://sketchfab.com/3d-models/jeff-o-lantern-adfffe3ccbbc47858869e45eafab533c) by WW3 (https://sketchfab.com/Mr.Iguana) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

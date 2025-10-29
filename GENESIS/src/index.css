@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+
+@font-face {
+  font-family: "Jaro";
+  src: url("fonts/Jaro-Regular.woff2") format("woff2"),
+    url("fonts/Jaro-Regular.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
