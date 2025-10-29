@@ -97,6 +97,19 @@ html, body, #root {
   border-radius: 5px;
 }
 
+.fullscreen-toggle-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1001;
+  font-size: 1rem;
+}
+
 .model-description {
   margin-top: 1rem;
   padding: 1rem;

@@ -1,1 +1,0 @@
-THREE.GLTFLoader: Unknown extension "KHR_materials_pbrSpecularGlossiness".

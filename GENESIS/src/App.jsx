@@ -4,8 +4,20 @@ import ModelViewer from "./components/ModelViewer";
 import "./App.css";
 
 const models = [
-  { id: 1, url: "/hackaton.glb", name: 'Космическая станция', description: 'Это детальная 3D-модель космической станции, предназначенная для будущей колонии. Она включает в себя различные модули, стыковочные узлы и внешние конструкции, обеспечивающие жизнедеятельность и исследовательскую деятельность в космосе.' },
-  { id: 2, url: "/u105ro5rg8o31.jpg", name: 'Комнаты космической станции', description: 'На этой статичной картинке изображены внутренние помещения космической станции. Здесь представлены жилые отсеки, лаборатории, зоны отдыха и рабочие пространства, спроектированные для комфортного и эффективного пребывания экипажа.' },
+  {
+    id: 1,
+    url: "/cosmo.glb",
+    name: "Space station",
+    description:
+      "This image depicts the interior of the space station. It features living quarters, a biodome, laboratories, an industrial area, and a power core designed for comfortable and efficient crew accommodation.",
+  },
+  {
+    id: 2,
+    url: "/image.jpg",
+    name: "Space station rooms",
+    description:
+      "This image depicts the interior of the space station. It features living quarters, a biodome, laboratories, an industrial area, and a power core designed for comfortable and efficient crew accommodation.",
+  },
 ];
 
 function App() {
@@ -31,20 +43,21 @@ function App() {
       <main className="main-content">
         <div className="models-grid">
           {models.map((model) => (
-                        <ModelCard
-                          key={model.id}
-                          modelUrl={model.url}
-                          onSelect={() => handleModelSelect(model)}
-                          name={model.name}
-                        />
-                      ))}
-                    </div>
-                    <ModelViewer 
-                      modelUrl={selectedModel ? selectedModel.url : null} 
-                      description={selectedModel ? selectedModel.description : null}
-                      isFullscreen={isFullscreen} 
-                      onToggleFullscreen={handleToggleFullscreen} 
-                    />      </main>
+            <ModelCard
+              key={model.id}
+              modelUrl={model.url}
+              onSelect={() => handleModelSelect(model)}
+              name={model.name}
+            />
+          ))}
+        </div>
+        <ModelViewer
+          modelUrl={selectedModel ? selectedModel.url : null}
+          description={selectedModel ? selectedModel.description : null}
+          isFullscreen={isFullscreen}
+          onToggleFullscreen={handleToggleFullscreen}
+        />{" "}
+      </main>
       <footer>
         <div>
           <p className="team-members">Team members:</p>

@@ -36,7 +36,6 @@ function ModelViewer({ modelUrl, description, isFullscreen, onToggleFullscreen }
   return (
     <div
       className={`model-viewer ${isFullscreen ? "fullscreen" : ""}`}
-      onDoubleClick={onToggleFullscreen}
     >
       {isImageFile(modelUrl) ? (
         <img src={modelUrl} alt="Selected content" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
@@ -52,6 +51,11 @@ function ModelViewer({ modelUrl, description, isFullscreen, onToggleFullscreen }
       {isFullscreen && (
         <div className="fullscreen-close-button" onClick={onToggleFullscreen}>
           X
+        </div>
+      )}
+      {!isFullscreen && (
+        <div className="fullscreen-toggle-button" onClick={onToggleFullscreen}>
+          Full Screen
         </div>
       )}
       {!isFullscreen && description && (

@@ -23,7 +23,7 @@ function ModelCard({ modelUrl, onSelect, name }) {
           />
         ) : (
           <Canvas>
-            <ambientLight intensity={0.5} />
+            <ambientLight intensity={5} />
             <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
             <pointLight position={[-10, -10, -10]} />
             <Model url={modelUrl} />
